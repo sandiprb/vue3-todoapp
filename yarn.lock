@@ -1520,6 +1520,11 @@
   optionalDependencies:
     prettier "^1.18.2"
 
+"@vue/devtools-api@^6.0.0-beta.2":
+  version "6.0.0-beta.2"
+  resolved "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.0.0-beta.2.tgz#833ad3335f97ae9439e26247d97f9baf7b5a6116"
+  integrity sha512-5k0A8ffjNNukOiceImBdx1e3W5Jbpwqsu7xYHiZVu9mn4rYxFztIt+Q25mOHm7nwvDnMHrE7u5KtY2zmd+81GA==
+
 "@vue/eslint-config-prettier@^6.0.0":
   version "6.0.0"
   resolved "https://registry.npmjs.org/@vue/eslint-config-prettier/-/eslint-config-prettier-6.0.0.tgz#ad5912b308f4ae468458e02a2b05db0b9d246700"
@@ -9023,6 +9028,13 @@ vue-class-component@^8.0.0-0:
   version "8.0.0-beta.3"
   resolved "https://registry.npmjs.org/vue-class-component/-/vue-class-component-8.0.0-beta.3.tgz#eef38348fe914f391c034ec9b53457402dae5b7b"
   integrity sha512-Dj9ZGZJpncSw6KJe3wpK35bDKEzWajQe+umUR9CpCmp3fVof1VwUc2pZG786gnvOghKspgeDfHYTMna3HMQxoQ==
+
+vue-composable@^1.0.0-beta.10:
+  version "1.0.0-beta.10"
+  resolved "https://registry.npmjs.org/vue-composable/-/vue-composable-1.0.0-beta.10.tgz#b020a9c9f4df4425522e965c9c121bd6ec83d0f4"
+  integrity sha512-5EuOxadlspBMZeRxPcaB0oo4PNRUpIk9mVBH14tv0+ES2gOmTwsGZin7aP/1lye2WmCrdu/OAA14t3UHJHfdWw==
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.2"
 
 vue-eslint-parser@^7.0.0, vue-eslint-parser@^7.1.0:
   version "7.1.0"
